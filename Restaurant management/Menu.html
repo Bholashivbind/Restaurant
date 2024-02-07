@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            
+            background: url('https://source.unsplash.com/random/1920x1080?culinary') no-repeat center center fixed ; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .menu-section {
+            margin-bottom: 50px;
+        }
+        .menu-item {
+            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.8); /* Make menu items slightly transparent */
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .menu-item h5 {
+            margin-bottom: 5px;
+        }
+        .menu-item p, .menu-item-price {
+            margin-bottom: 0;
+        }
+        .menu-item-price {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-content {
+            padding: 20px;
+        }
+
+        .footer {
+        background-color: #343a40; /* Dark gray, adjust the color as needed */
+        color: #ffffff; /* Light text color for contrast */
+        padding: 20px 0; /* Add some padding */
+    }
+
+
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="restaurant.html">Restaurant Name</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="restaurant.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+                <a class="nav-link" href="registration.html">Registration</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="reservation.html">Book Your Table</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h1 class="mb-5 text-center" style="color: #fff;">Our Menu</h1>
+    
+    <div class="menu-section">
+        <h2 class="mb-4" style="color: #fff;">Starters</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?food" alt="Tomato Bruschetta">
+                <div class="menu-content">
+                    <h5>Tomato Bruschetta</h5>
+                    <p>Grilled bread, tomatoes, garlic, olive oil.</p>
+                    <span class="menu-item-price">$8</span>
+                </div>
+            </div>
+            <!-- Starter Item: Tomato Bruschetta -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?tomato-bruschetta" alt="Tomato Bruschetta">
+                <div class="menu-content">
+                    <h5>Tomato Bruschetta</h5>
+                    <p>Grilled bread, tomatoes, garlic, olive oil.</p>
+                    <span class="menu-item-price">$8</span>
+                </div>
+            </div>
+
+            <!-- Starter Item: Caesar Salad -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?caesar-salad" alt="Caesar Salad">
+                <div class="menu-content">
+                    <h5>Caesar Salad</h5>
+                    <p>Romaine lettuce, croutons, parmesan, and a rich Caesar dressing.</p>
+                    <span class="menu-item-price">$10</span>
+                </div>
+            </div>
+
+            <!-- Starter Item: Stuffed Mushrooms -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?stuffed-mushrooms" alt="Stuffed Mushrooms">
+                <div class="menu-content">
+                    <h5>Stuffed Mushrooms</h5>
+                    <p>Baked mushrooms filled with herbs, cheese, and garlic.</p>
+                    <span class="menu-item-price">$12</span>
+                </div>
+            </div>
+
+            <!-- Starter Item: Garlic Shrimp -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?garlic-shrimp" alt="Garlic Shrimp">
+                <div class="menu-content">
+                    <h5>Garlic Shrimp</h5>
+                    <p>Succulent shrimp sautéed with garlic and butter, served with artisan bread.</p>
+                    <span class="menu-item-price">$15</span>
+                </div>
+            </div>
+
+            <!-- Starter Item: Caprese Salad -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?caprese-salad" alt="Caprese Salad">
+                <div class="menu-content">
+                    <h5>Caprese Salad</h5>
+                    <p>Fresh tomatoes, mozzarella, basil, and balsamic glaze.</p>
+                    <span class="menu-item-price">$9</span>
+                </div>
+            </div>
+
+            <!-- Add more starter items here -->
+        </div>
+    </div>
+    
+    <div class="menu-section">
+        <h2 class="mb-4" style="color: #fff;">Main Courses</h2>
+        <div class="row">
+            <!-- Main course items -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?grilled-salmon" alt="Grilled Salmon">
+                <div class="menu-content">
+                    <h5>Grilled Salmon</h5>
+                    <p>Grilled salmon fillet with a dill sauce and roasted vegetables.</p>
+                    <span class="menu-item-price">$22</span>
+                </div>
+            </div>
+    
+            <!-- Main Course Item: Ribeye Steak -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?ribeye-steak" alt="Ribeye Steak">
+                <div class="menu-content">
+                    <h5>Ribeye Steak</h5>
+                    <p>12oz ribeye steak with garlic butter, served with mashed potatoes and asparagus.</p>
+                    <span class="menu-item-price">$28</span>
+                </div>
+            </div>
+    
+            <!-- Main Course Item: Chicken Alfredo Pasta -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?chicken-alfredo-pasta" alt="Chicken Alfredo Pasta">
+                <div class="menu-content">
+                    <h5>Chicken Alfredo Pasta</h5>
+                    <p>Fettuccine pasta tossed in Alfredo sauce with grilled chicken, topped with parmesan.</p>
+                    <span class="menu-item-price">$18</span>
+                </div>
+            </div>
+    
+            <!-- Main Course Item: Vegetarian Pizza -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?vegetarian-pizza" alt="Vegetarian Pizza">
+                <div class="menu-content">
+                    <h5>Vegetarian Pizza</h5>
+                    <p>Classic pizza with tomato sauce, mozzarella, and a variety of fresh vegetables.</p>
+                    <span class="menu-item-price">$15</span>
+                </div>
+            </div>
+
+            <!-- Main Course Item: Seafood Paella -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?seafood-paella" alt="Seafood Paella">
+                <div class="menu-content">
+                    <h5>Seafood Paella</h5>
+                    <p>A traditional Spanish rice dish made with saffron, mixed seafood, and fresh herbs.</p>
+                    <span class="menu-item-price">$25</span>
+                </div>
+            </div>
+
+            <!-- Main Course Item: Beef Bourguignon -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?beef-bourguignon" alt="Beef Bourguignon">
+                <div class="menu-content">
+                    <h5>Beef Bourguignon</h5>
+                    <p>Slow-cooked beef stew in red wine with mushrooms, pearl onions, and bacon.</p>
+                    <span class="menu-item-price">$27</span>
+                </div>
+            </div>
+
+            <!-- Main Course Item: Vegan Buddha Bowl -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?buddha-bowl" alt="Vegan Buddha Bowl">
+                <div class="menu-content">
+                    <h5>Vegan Buddha Bowl</h5>
+                    <p>Quinoa, avocado, sweet potato, chickpeas, and a tahini dressing.</p>
+                    <span class="menu-item-price">$17</span>
+                </div>
+            </div>
+
+            <!-- Main Course Item: Duck Confit -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?duck-confit" alt="Duck Confit">
+                <div class="menu-content">
+                    <h5>Duck Confit</h5>
+                    <p>Slow-cooked duck leg with crispy skin, served with roasted vegetables and a cherry sauce.</p>
+                    <span class="menu-item-price">$30</span>
+                </div>
+            </div>
+
+            <!-- Main Course Item: Mushroom Risotto -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?mushroom-risotto" alt="Mushroom Risotto">
+                <div class="menu-content">
+                    <h5>Mushroom Risotto</h5>
+                    <p>Creamy Arborio rice with wild mushrooms, Parmesan cheese, and white truffle oil.</p>
+                    <span class="menu-item-price">$20</span>
+                </div>
+            </div>
+
+    
+            <!-- Add more main course items as needed -->
+        </div>
+    </div>
+    
+    <div class="menu-section">
+        <h2 class="mb-4" style="color: #fff;">Desserts</h2>
+        <div class="row">
+
+
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?chocolate-lava-cake" alt="Chocolate Lava Cake">
+                <div class="menu-content">
+                    <h5>Chocolate Lava Cake</h5>
+                    <p>Warm, gooey chocolate cake with a molten chocolate center, served with vanilla ice cream.</p>
+                    <span class="menu-item-price">$9</span>
+                </div>
+            </div>
+    
+            <!-- Dessert Item: Lemon Cheesecake -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?lemon-cheesecake" alt="Lemon Cheesecake">
+                <div class="menu-content">
+                    <h5>Lemon Cheesecake</h5>
+                    <p>Creamy lemon cheesecake on a graham cracker crust, topped with fresh whipped cream.</p>
+                    <span class="menu-item-price">$10</span>
+                </div>
+            </div>
+    
+            <!-- Dessert Item: Tiramisu -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?tiramisu" alt="Tiramisu">
+                <div class="menu-content">
+                    <h5>Tiramisu</h5>
+                    <p>Classic Italian dessert with layers of espresso-soaked ladyfingers, mascarpone cream, and cocoa.</p>
+                    <span class="menu-item-price">$11</span>
+                </div>
+            </div>
+    
+            <!-- Dessert Item: Apple Pie -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?apple-pie" alt="Apple Pie">
+                <div class="menu-content">
+                    <h5>Apple Pie</h5>
+                    <p>Traditional apple pie with a flaky crust and spiced apple filling, served warm.</p>
+                    <span class="menu-item-price">$8</span>
+                </div>
+            </div>
+    
+            <!-- Dessert Item: Fruit Sorbet -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?fruit-sorbet" alt="Fruit Sorbet">
+                <div class="menu-content">
+                    <h5>Fruit Sorbet</h5>
+                    <p>Light and refreshing sorbet made from seasonal fruits.</p>
+                    <span class="menu-item-price">$7</span>
+                </div>
+            </div>
+
+
+            <!-- Dessert Item: Raspberry Pavlova -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?raspberry-pavlova" alt="Raspberry Pavlova">
+                <div class="menu-content">
+                    <h5>Raspberry Pavlova</h5>
+                    <p>Light meringue base topped with fresh raspberries and whipped cream.</p>
+                    <span class="menu-item-price">$10</span>
+                </div>
+            </div>
+
+            <!-- Dessert Item: Chocolate Mousse -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?chocolate-mousse" alt="Chocolate Mousse">
+                <div class="menu-content">
+                    <h5>Chocolate Mousse</h5>
+                    <p>Rich and velvety chocolate mousse, garnished with whipped cream and chocolate shavings.</p>
+                    <span class="menu-item-price">$9</span>
+                </div>
+            </div>
+
+            <!-- Dessert Item: Creme Brulee -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?creme-brulee" alt="Creme Brulee">
+                <div class="menu-content">
+                    <h5>Creme Brulee</h5>
+                    <p>Classic French dessert with a rich custard base and a contrasting layer of hard caramel.</p>
+                    <span class="menu-item-price">$12</span>
+                </div>
+            </div>
+
+            <!-- Dessert Item: Pecan Pie -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?pecan-pie" alt="Pecan Pie">
+                <div class="menu-content">
+                    <h5>Pecan Pie</h5>
+                    <p>Traditional pecan pie with a sweet filling and topped with pecan halves.</p>
+                    <span class="menu-item-price">$11</span>
+                </div>
+            </div>
+
+            <!-- Dessert Item: Matcha Cheesecake -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?matcha-cheesecake" alt="Matcha Cheesecake">
+                <div class="menu-content">
+                    <h5>Matcha Cheesecake</h5>
+                    <p>A unique twist on the classic cheesecake with a matcha green tea flavor.</p>
+                    <span class="menu-item-price">$10</span>
+                </div>
+            </div>
+
+            <!-- Dessert Item: Mango Sticky Rice -->
+            <div class="col-md-6 col-lg-4 menu-item">
+                <img src="https://source.unsplash.com/random/400x300?mango-sticky-rice" alt="Mango Sticky Rice">
+                <div class="menu-content">
+                    <h5>Mango Sticky Rice</h5>
+                    <p>Sweet sticky rice served with fresh mango slices and coconut milk.</p>
+                    <span class="menu-item-price">$8</span>
+                </div>
+            </div>
+
+                        <!-- Dessert items -->
+                    </div>
+                </div>
+                
+
+                <!-- Button linking to the reservation page -->
+               <!-- Trigger Modal Button -->
+                <div class="container my-4">
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reservationModal">
+                            Make a Reservation
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Reservation Modal -->
+                <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="reservationModalLabel">Reservation Form</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="text-center mb-4">Book a Table</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="reservationDate" class="form-label">Date</label>
+                    <input type="date" class="form-control" id="reservationDate" required>
+                </div>
+                <div class="mb-3">
+                    <label for="reservationTime" class="form-label">Time</label>
+                    <input type="time" class="form-control" id="reservationTime" required>
+                </div>
+                <div class="mb-3">
+                    <label for="guests" class="form-label">Number of Guests</label>
+                    <select class="form-select" id="guests" required>
+                        <option selected>Choose...</option>
+                        <option value="1">1</option>
+                        <!-- Add more options as needed -->
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <!-- <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit Reservation</button>
+                </div>
+            </form> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary" form="yourReservationFormId">Submit Reservation</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more sections as needed -->
+                
+            </div>
+
+
+        <!-- Footer -->
+<footer class="footer">
+    <div class="container text-center ">
+        <small>Follow us on social media for the latest updates!</small>
+        <div>
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
